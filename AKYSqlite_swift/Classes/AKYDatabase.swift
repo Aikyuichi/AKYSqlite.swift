@@ -61,7 +61,6 @@ public class AKYDatabase {
         for attachement in self.deferredAttachments {
             self.executeQuery(attachement)
         }
-        self.deferredAttachments.removeAll()
         return true
     }
     
@@ -90,6 +89,7 @@ public class AKYDatabase {
     public func close() {
         self.closeTransaction()
         sqlite3_close(self.sqlite)
+        self.isOpen = false
     }
     
     public func attachDatabase(_ database: AKYDatabase, withSchema schema: String) {
