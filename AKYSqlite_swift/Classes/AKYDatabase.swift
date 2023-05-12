@@ -99,7 +99,6 @@ public class AKYDatabase {
         } else {
             self.deferredAttachments.append(query)
         }
-        self.executeQuery(query)
     }
     
     public func detachDatabase(withSchema schema: String) {
