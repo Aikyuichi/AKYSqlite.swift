@@ -1,0 +1,6 @@
+framework module AKYSqlite_swift {
+  umbrella header "AKYSqlite_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

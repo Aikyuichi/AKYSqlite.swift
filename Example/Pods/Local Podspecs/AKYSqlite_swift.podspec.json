@@ -1,0 +1,22 @@
+{
+  "name": "AKYSqlite_swift",
+  "version": "0.1.0",
+  "summary": "A short description of AKYSqlite_swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aikyuichi/AKYSqlite_swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aikyuichi": "aikyu.sama@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aikyuichi/AKYSqlite_swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AKYSqlite_swift/Classes/**/*"
+}

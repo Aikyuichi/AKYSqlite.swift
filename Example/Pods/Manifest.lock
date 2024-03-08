@@ -1,0 +1,27 @@
+PODS:
+  - AKYSqlite_swift (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AKYSqlite_swift (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AKYSqlite_swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKYSqlite_swift: dea3f426e2e1eb8c282008d4c2a760a9c3a4404b
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: fcde20c4c5a444d233ed632b9aafdd565a502881
+
+COCOAPODS: 1.11.3
