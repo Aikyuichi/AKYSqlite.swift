@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AKYSqlite_swift'
-  s.version          = '0.5.2'
+  s.version          = '0.6.0'
   s.summary          = 'A small library to query sqlite databases.'
   s.swift_version    = '5'
 
